@@ -32,14 +32,12 @@ actions:
       <div class="role">项目负责人 · 核心开发</div>
       <div class="contact"><a href="mailto:alex@example.com">alex@example.com</a></div>
     </div>
-
     <div class="card">
-      <img class="avatar" src="/avatars/mira.png" alt="Mira"/>
+      <!--img class="avatar" src="/avatars/mira.png" alt="Mira"/-->
       <h3>Mira</h3>
       <div class="role">美术与文档</div>
       <div class="contact"><a href="mailto:mira@example.com">mira@example.com</a></div>
     </div>
-
     <div class="card">
       <img class="avatar" src="/avatars/jin.png" alt="Jin"/>
       <h3>Jin</h3>
