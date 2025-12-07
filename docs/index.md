@@ -27,7 +27,7 @@ actions:
 <div class="team-section">
   <div class="team-grid">
     <div class="card">
-      <img class="avatar" src="/avatars/alex.png" alt="Alex"/>
+      <!--img class="avatar" src="/avatars/alex.png" alt="Alex"/-->
       <h3>Alex</h3>
       <div class="role">项目负责人 · 核心开发</div>
       <div class="contact"><a href="mailto:alex@example.com">alex@example.com</a></div>
