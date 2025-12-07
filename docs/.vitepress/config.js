@@ -1,21 +1,20 @@
 export default {
-  title: 'GQcraft Docs',
-  description: 'GQcraft 团队与文档',
   themeConfig: {
-    logo: '/logo.png',
-    nav: [
+    navbar: [
       { text: '首页', link: '/' },
       { text: '文档', link: '/guide/' },
-      { text: 'GitHub', link: 'https://github.com/gqcraftteam/gqcraftdocs' }
+      { text: '工具箱', link: '/toolbox/' },
     ],
-    sidebar: [
-      {
-        text: '文档',
-        items: [
-          { text: '快速开始', link: '/guide/' }
-        ]
-      }
-    ]
+    sidebar: {
+      '/guide/': [
+        {
+          text: '指南',
+          children: [
+            { text: '安装', link: '/guide/install' },
+            { text: '快速入门', link: '/guide/quickstart' },
+          ]
+        }
+      ]
+    }
   }
 }
-

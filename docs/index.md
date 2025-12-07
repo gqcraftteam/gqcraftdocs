@@ -3,56 +3,36 @@ home: true
 heroImage: /logo.png
 heroAlt: GQcraft 团队
 heroText: GQcraft 团队
-tagline: Minecraft 模组与社区项目 — 官方文档与团队介绍
+tagline: Minecraft 模组与社区项目 — 官方文档与工具箱
 actions:
-  - text: 文档
+  - text: 查看文档
     link: /guide/
     type: primary
-  - text: GitHub
-    link: https://github.com/gqcraftteam/gqcraftdocs
+  - text: 工具箱
+    link: /toolbox/
     type: secondary
 ---
 
-<div class="hero">
-  <h1>GQcraft 团队</h1>
-  <p>我们是一支热爱 Minecraft 的开发与内容创作团队，致力于制作高质量模组与社区工具，并为玩家提供清晰的文档与支持。</p>
-  <div class="actions">
-    <a class="btn primary" href="/guide/">查看文档</a>
-    <a class="btn secondary" href="https://github.com/gqcraftteam/gqcraftdocs">项目仓库</a>
-  </div>
+# 欢迎访问 GQcraft 团队的官方文档网站！
+
+我们是一支热爱 Minecraft 的开发与内容创作团队，致力于制作高质量模组与社区工具，并为玩家提供清晰的文档与支持。
+
+## 公告
+
+<div class="announcement">
+  <h2>最新公告</h2>
+  <p><strong>公告 1:</strong> 我们的最新模组已经上线，赶紧来体验吧！ <a href="/guide/install">点击查看安装指南</a></p>
+  <p><strong>公告 2:</strong> 工具箱页面已更新，添加了新功能！ <a href="/toolbox">点击查看工具箱</a></p>
 </div>
 
-## 我们的成员
+## 站点导航
 
-<div class="team-section">
-  <div class="team-grid">
-    <div class="card">
-      <!--img class="avatar" src="/avatars/alex.png" alt="Alex"/-->
-      <h3>Alex</h3>
-      <div class="role">项目负责人 · 核心开发</div>
-      <div class="contact"><a href="mailto:alex@example.com">alex@example.com</a></div>
-    </div>
-    <div class="card">
-      <!--img class="avatar" src="/avatars/mira.png" alt="Mira"/-->
-      <h3>Mira</h3>
-      <div class="role">美术与文档</div>
-      <div class="contact"><a href="mailto:mira@example.com">mira@example.com</a></div>
-    </div>
-    <div class="card">
-      <!--img class="avatar" src="/avatars/jin.png" alt="Jin"/-->
-      <h3>Jin</h3>
-      <div class="role">社区与测试</div>
-      <div class="contact"><a href="mailto:jin@example.com">jin@example.com</a></div>
-    </div>
-  </div>
-</div>
+### 文档页面
+我们的文档页面提供了详细的安装指南、教程以及高级功能说明。请点击以下按钮进入文档：
 
-## 想加入或贡献？
+<button class="btn primary" onclick="window.location.href='/guide/'">查看文档</button>
 
-我们欢迎贡献者：无论是代码、文档、或是美术素材，都可以通过 GitHub 提交 PR。阅读我们的文档和贡献指南以开始。
+### 工具箱页面
+我们的工具箱页面为您提供了各种辅助工具，包括调试工具、性能优化工具等。请点击以下按钮进入工具箱：
 
-<div class="contribute">
-  <a class="btn primary" href="/guide/">开始阅读文档</a>
-  <a class="btn secondary" href="https://github.com/gqcraftteam/gqcraftdocs">打开仓库</a>
-</div>
-
+<button class="btn secondary" onclick="window.location.href='/toolbox/'">进入工具箱</button>
