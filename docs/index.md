@@ -57,3 +57,4 @@ actions:
   <a class="btn primary" href="/guide/">开始阅读文档</a>
   <a class="btn secondary" href="https://github.com/gqcraftteam/gqcraftdocs">打开仓库</a>
 </div>
+
