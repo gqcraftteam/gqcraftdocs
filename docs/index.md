@@ -58,6 +58,3 @@ actions:
 	<a class="btn secondary" href="https://github.com/gqcraftteam/gqcraftdocs">打开仓库</a>
 </div>
 
----
-
-如需替换头像或 logo，请把图片放在 `docs/.vitepress/public/avatars/` 或在仓库根目录的 `public/` 下，路径即为 `/avatars/xxx.png`。
