@@ -39,7 +39,7 @@ actions:
       <div class="contact"><a href="mailto:mira@example.com">mira@example.com</a></div>
     </div>
     <div class="card">
-      <img class="avatar" src="/avatars/jin.png" alt="Jin"/>
+      <!--img class="avatar" src="/avatars/jin.png" alt="Jin"/-->
       <h3>Jin</h3>
       <div class="role">社区与测试</div>
       <div class="contact"><a href="mailto:jin@example.com">jin@example.com</a></div>
